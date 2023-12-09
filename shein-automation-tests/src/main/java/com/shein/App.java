@@ -1,13 +1,10 @@
-package com.shein;
+import org.junit.jupiter.api.Test; // Importa a anotação @Test do JUnit 5
+import static org.junit.jupiter.api.Assertions.assertTrue; // Importa o método assertTrue do JUnit 5
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class AppTest {
+
+    @Test
+    public void test() {
+        assertTrue(true);
     }
 }
