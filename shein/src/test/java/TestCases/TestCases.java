@@ -16,7 +16,7 @@ public class TestCases {
       WebDriver driver = new ChromeDriver();
 
       // Navegar para a página de teste
-      driver.get("https://www.shein.com/");
+      driver.get("https://www..com/");
     }
      
      @Test
@@ -25,7 +25,7 @@ public class TestCases {
        WebDriver driver = new ChromeDriver();
 
        // Navegar para a página inicial da SHEIN
-       driver.get("https://www.shein.com/");
+       driver.get("https://www..com/");
 
        // Verificar se a página inicial é exibida
        assertEquals("12.12 Sale 2023 | Moda feminina | Roupas, Acessórios e muitos mais | SHEIN Brasil", driver.getTitle());
