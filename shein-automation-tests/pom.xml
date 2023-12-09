@@ -14,5 +14,23 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependencies>
+
+    <!-- Dependência para JUnit 5 -->
+    <dependency>
+        <groupId>org.junit.jupiter</groupId>
+        <artifactId>junit-jupiter-api</artifactId>
+        <version>5.8.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- Dependência para Selenium -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+</dependencies>
+
   </dependencies>
 </project>
