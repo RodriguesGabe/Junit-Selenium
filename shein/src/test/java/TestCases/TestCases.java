@@ -6,8 +6,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestCases {
 
@@ -15,15 +15,15 @@ public class TestCases {
 
     @BeforeEach
     public void setup() {
-        // Configurar o WebDriver (GeckoDriver para o Firefox no seu caso)
-        System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
-        
-        // Configurar as opções do Firefox (opcional)
-        FirefoxOptions options = new FirefoxOptions();
+        // Configurar o WebDriver (ChromeDriver)
+        System.setProperty("webdriver.chrome.driver", "Junit-Selenium/shein/chromedriver");
+
+        // Configurar as opções do Chrome (opcional)
+        ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");  // Executar em modo headless (sem interface gráfica)
 
-        // Inicializar o WebDriver do Firefox
-        driver = new FirefoxDriver(options);
+        // Inicializar o WebDriver do Chrome
+        driver = new ChromeDriver(options);
     }
 
     @Test
