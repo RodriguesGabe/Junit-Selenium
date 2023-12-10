@@ -1,2 +1,10 @@
-TestCases/SheinCategorySearchTest.class
 TestCases/TestCases.class
+TestCases/SheinShareRedesSociaisTest.class
+TestCases/SheinAddToCartTest.class
+TestCases/SheinFilterSearchTest.class
+TestCases/SheinBuscaGeralTest.class
+TestCases/SheinPromocoesTest.class
+TestCases/SheinCategorySearchTest.class
+TestCases/SheinProductDetailsTest.class
+TestCases/SheinCadastroTest.class
+TestCases/SheinLoginTest.class
